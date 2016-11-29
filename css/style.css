@@ -880,6 +880,10 @@ h1, h2, h3, h4, h5, h6 {
   background-image: repeating-linear-gradient(to bottom right, #3f95ea 0%, #52d3aa 100%);
   background-image: -ms-repeating-linear-gradient(top left, #3f95ea 0%, #52d3aa 100%);
 }
+
+
+
+
 #fh5co-work, #fh5co-join a {
   color: rgba(255, 255, 255, 0.5);
   text-decoration: underline;
@@ -887,7 +891,7 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-work, #fh5co-join a:hover {
   color: white;
 }
-#fh5co-work:before, #fh5co-work:after, #fh5co-join:before. #fh5co-join:after {
+#fh5co-work:before, #fh5co-work:after, #fh5co-join:before, #fh5co-join:after {
   position: absolute;
   transform: rotate(-1.7deg);
   -ms-transform: rotate(-1.7deg);
