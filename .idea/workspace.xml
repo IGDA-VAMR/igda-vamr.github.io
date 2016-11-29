@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf7bf9b7-c399-495d-b393-f2f0fdbc70aa" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="49" column="108" lean-forward="false" selection-start-line="49" selection-start-column="108" selection-end-line="49" selection-end-column="108" />
+            <state relative-caret-position="340">
+              <caret line="47" column="58" lean-forward="false" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
               <folding>
                 <element signature="n#style#0;n#a#1;n#div#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -293,12 +294,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1480454186162</updated>
-      <workItem from="1480454188946" duration="3637000" />
+      <workItem from="1480454188946" duration="3768000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3637000" />
+    <option name="totallyTimeSpent" value="3768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="77" width="1850" height="751" extended-state="0" />
@@ -351,8 +352,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="49" column="108" lean-forward="false" selection-start-line="49" selection-start-column="108" selection-end-line="49" selection-end-column="108" />
+        <state relative-caret-position="340">
+          <caret line="47" column="58" lean-forward="false" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
           <folding>
             <element signature="n#style#0;n#a#1;n#div#0;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
