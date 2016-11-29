@@ -406,11 +406,17 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 4;
 }
+
+.text-inner {
+  padding-top: 150px;
+}
+
 #fh5co-home .text-inner {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
+
 #fh5co-home .text-inner a {
   color: white;
   border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
@@ -1374,6 +1380,10 @@ h1, h2, h3, h4, h5, h6 {
     float: none;
     width: 100%;
   }
+}
+
+.row {
+  padding-top: 5%;
 }
 
 .row-bottom-padded-lg {
