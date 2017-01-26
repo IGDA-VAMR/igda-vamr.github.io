@@ -626,11 +626,11 @@ h1, h2, h3, h4, h5, h6 {
   transform: scale(1.1);
 }
 
-#fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-join {
+#fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-team,  #fh5co-join {
   padding: 4em 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-join {
+  #fh5co-services, #fh5co-testimonials, #fh5co-counters, #fh5co-work, #fh5co-contact, #fh5co-about, #fh5co-team, #fh5co-join {
     padding: 2em 0;
   }
 }
@@ -876,7 +876,81 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-#fh5co-work, #fh5co-join {
+
+.team-member {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.team-member img {
+  margin: 0 auto;
+  border: 7px solid #fff;
+}
+
+.team-member p {
+  margin-top: 0;
+}
+.team-member h3 {
+  font: 30px/1 MuseoLight, Verdana, sans-serif;
+  text-transform: none;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.team-member h4 {
+  font-size: 16px;
+  text-transform: none;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.team-member h4 a {
+  text-transform: none;
+}
+
+.team-member h5 {
+  font-size: 14px;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 200;
+  color: white;
+  margin-bottom: 15px
+}
+
+.team-member .report  {
+  margin-top: 0px;
+}
+
+.team-member h5 a {
+  text-transform: none;
+}
+
+.team-member ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.team-bio {
+  padding: 15px
+}
+
+.flexbox-center {
+  justify-content: center;
+}
+
+.col-centered {
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#fh5co-work, #fh5co-team {
   overflow: hidden;
   position: relative;
   color: rgba(255, 255, 255, 0.8);
@@ -894,14 +968,14 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-#fh5co-work, #fh5co-join a {
+#fh5co-work, #fh5co-team a {
   color: rgba(255, 255, 255, 0.5);
   text-decoration: underline;
 }
-#fh5co-work, #fh5co-join a:hover {
+#fh5co-work, #fh5co-team a:hover {
   color: white;
 }
-#fh5co-work:before, #fh5co-work:after, #fh5co-join:before, #fh5co-join:after {
+#fh5co-work:before, #fh5co-work:after, #fh5co-team:before, #fh5co-team:after {
   position: absolute;
   transform: rotate(-1.7deg);
   -ms-transform: rotate(-1.7deg);
@@ -916,21 +990,21 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   width: 101%;
 }
-#fh5co-work:before, #fh5co-join:before {
+#fh5co-work:before, #fh5co-team:before {
   top: 0;
   margin-top: -35px;
 }
-#fh5co-work:after, #fh5co-join:after {
+#fh5co-work:after, #fh5co-team:after {
   bottom: 0;
   margin-bottom: -35px;
 }
-#fh5co-work .section-heading h2, #fh5co-join .section-heading h2 {
+#fh5co-work .section-heading h2, #fh5co-team .section-heading h2 {
   color: #fff;
 }
-#fh5co-work .section-heading h2:after, #fh5co-join .section-heading h2:after {
+#fh5co-work .section-heading h2:after, #fh5co-team .section-heading h2:after {
   background: rgba(255, 255, 255, 0.3);
 }
-#fh5co-work .section-heading h3, #fh5co-join .section-heading h3 {
+#fh5co-work .section-heading h3, #fh5co-team .section-heading h3 {
   color: rgba(255, 255, 255, 0.8);
 }
 #fh5co-work .fh5co-project-item {
@@ -950,7 +1024,7 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-#fh5co-work .fh5co-project-item img, #fh5co-join .fh5co-project-item img {
+#fh5co-work .fh5co-project-item img, #fh5co-team .fh5co-project-item img {
   z-index: 8;
   opacity: 1;
   -webkit-transition: 0.3s;
