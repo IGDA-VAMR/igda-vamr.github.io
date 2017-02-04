@@ -211,7 +211,12 @@
         
             <div class="col-sm-6 to-animate">
                 <div class="team-member">
-                    <img src="images/Jamie_Avatar.png" class="img-responsive img-circle" alt="Jamie Telford">
+                    <img 
+                        src="images/Jamie_Avatar.png" 
+                        class="img-responsive img-circle" 
+                        alt="Jamie Telford"
+                        onmouseover="this.src='images/Jamie_Avatar_Alt.png'"
+                        onmouseout="this.src='images/Jamie_Avatar.png'" >
                     <h3>Jamie Telford</h3>
                     <h4>Technical Artist / VR Researcher</h4>
                     <h5 class="report"></h5>
@@ -475,6 +480,17 @@
         </div>
     </div>
 </footer>
+
+<script type="text/javascript">
+
+    function alt_image(my_image)
+    {
+
+        my_image.src = 'images/Jamie_Avatar_Alt.png';
+
+    }
+
+</script>
 
 <script src="js/jquery.min.js"></script>
 
