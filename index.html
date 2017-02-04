@@ -178,7 +178,12 @@
             <div class="row">
         <div class="col-sm-6 to-animate">
             <div class="team-member">
-                <img src="images/Sally_Avatar.png" class="img-responsive img-circle" alt="Sally Kellaway">
+                <img 
+                        src="images/Sally_Avatar.png" 
+                        class="img-responsive img-circle" 
+                        alt="Sally Kellaway"
+                        onmouseover="this.src='images/Sally_Kellaway_Alt.png'"
+                        onmouseout="this.src='images/Sally_Avatar.png'" >
                 <h3>Sally Kellaway</h3>
                 <h4>3D Audio Acoustics Expert</h4>
                 <h5 class="report"></h5>
@@ -480,17 +485,6 @@
         </div>
     </div>
 </footer>
-
-<script type="text/javascript">
-
-    function alt_image(my_image)
-    {
-
-        my_image.src = 'images/Jamie_Avatar_Alt.png';
-
-    }
-
-</script>
 
 <script src="js/jquery.min.js"></script>
 
